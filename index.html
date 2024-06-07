@@ -1,7 +1,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>footer</title>
+    <title>mail</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,6 +37,7 @@
         a {
             color: black;
             text-decoration: none;
+            transition: 0.3s;
             cursor: pointer;
         }
 
@@ -62,11 +63,18 @@
         }
 
         .page-link {
-            margin: 4px;
+            padding: 0;
+            margin: 3px;
+            font-weight: bold;
         }
 
         .box {
-            padding: 5px 15px;
+            padding: 5px 20px;
+
+        }
+
+        .company-data,
+        .opinion-box {
             text-align: center;
         }
 
@@ -76,6 +84,20 @@
             height: auto;
             display: block;
             padding: 2%;
+        }
+
+        .hello,
+        .regards {
+            font-size: 20px;
+        }
+
+        .regards {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .line {
+            width: 70%;
         }
     </style>
 </head>
@@ -94,13 +116,13 @@
             <tr>
                 <td>
                     <div class="links box">
-                        <a class="page-link" href="https://www.der-fellmann.de/bekleidung/">HOME</a>
-                        <a class="page-link" href="https://www.der-fellmann.de/bekleidung/">KOBIETA</a>
-                        <a class="page-link" href="https://www.der-fellmann.de/bekleidung/">MĘŻCZYZNA</a>
-                        <a class="page-link" href="https://www.der-fellmann.de/bekleidung/">DZIECKO</a>
-                        <a class="page-link" href="https://www.der-fellmann.de/bekleidung/">SKÓRY</a>
-                        <a class="page-link" href="https://www.der-fellmann.de/bekleidung/">DOM I OGRÓD</a>
-                        <a class="page-link" href="https://www.der-fellmann.de/bekleidung/">STREFA ZDROWIA</a>
+                        <a class="page-link" href="https://www.hollert.pl/">HOME</a>
+                        <a class="page-link" href="https://www.hollert.pl/Kobieta/">KOBIETA</a>
+                        <a class="page-link" href="https://www.hollert.pl/Mezczyzna/">MĘŻCZYZNA</a>
+                        <a class="page-link" href="https://www.hollert.pl/Dziecko/">DZIECKO</a>
+                        <a class="page-link" href="https://www.hollert.pl/Skory-dekoracyjne/">SKÓRY</a>
+                        <a class="page-link" href="https://www.hollert.pl/Dom-i-ogrod/">DOM I OGRÓD</a>
+                        <a class="page-link" href="https://www.hollert.pl/Zdrowie/">STREFA ZDROWIA</a>
                     </div>
                     <hr style=" border-color: #ac9721;">
                 </td>
@@ -121,10 +143,10 @@
                             za pośrednictwem
                             formularza dostępnego na stronie zamówienia.</p>
 
-                        <p>Pozdrawiamy Zespół Hollert</p>
+                        <p class="regards">Pozdrawiamy Zespół Hollert</p>
                     </div>
 
-                    <hr>
+                    <hr class="line">
                 </td>
             </tr>
 
@@ -132,7 +154,7 @@
                 <td>
                     <div class="company-data box">
 
-                        <p> Shoppainters Sp. z o.o.<br>
+                        <p>Shoppainters Sp. z o.o.<br>
                             Ul. Szymanowskiego 7 <br>
                             41-711 Ruda Śląska <br>
                             NIP: 6412566553 </p>
@@ -149,14 +171,11 @@
             <tr>
                 <td>
                     <div class="opinion-box box">
-                        <p class="opinion">Zachęcamy do wystawienia nam
-                            opinii
-                            w Google</p>
+                        <p class="opinion">Zachęcamy do wystawienia nam opinii w Google</p>
 
                         <p class="western">
                             <a rel="noopener" href="https://g.page/r/CeqFD1mR2m-kEBE/review" target="_blank"><b>KLIKNIJ
-                                    TUTAJ
-                                    BY DODAĆ OPINIĘ</b>
+                                    TUTAJ BY DODAĆ OPINIĘ</b>
                             </a>&nbsp;&nbsp;
                         </p>
                         <img class="opinion-img"
