@@ -22,6 +22,8 @@
             max-width: 600px;
             margin: 40px auto;
             background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
         }
 
         .logo-heading {
@@ -76,10 +78,12 @@
         .company-data,
         .opinion-box {
             text-align: center;
+            margin: 20px 0;
         }
 
         .opinion-img {
             width: 70%;
+            border-radius: 20px 0 20px 0;
             margin: 0 auto;
             height: auto;
             display: block;
@@ -98,6 +102,20 @@
 
         .line {
             width: 70%;
+        }
+
+        .contact {
+            display: flex;
+            justify-content: space-between;
+            font-weight: 500;
+        }
+
+        .logo-img {
+            width: 30%;
+            margin: 0 auto;
+            height: auto;
+            display: block;
+            padding: 2%;
         }
     </style>
 </head>
@@ -166,6 +184,7 @@
 
 
                     </div>
+                    <hr class="line">
                 </td>
             </tr>
             <tr>
@@ -174,14 +193,14 @@
                         <p class="opinion">Zachęcamy do wystawienia nam opinii w Google</p>
 
                         <p class="western">
-                            <a rel="noopener" href="https://g.page/r/CeqFD1mR2m-kEBE/review" target="_blank"><b>KLIKNIJ
+                            <a class="google-opinion" rel="noopener" href="https://g.page/r/CeqFD1mR2m-kEBE/review"
+                                target="_blank"><b>KLIKNIJ
                                     TUTAJ BY DODAĆ OPINIĘ</b>
                             </a>&nbsp;&nbsp;
                         </p>
                         <img class="opinion-img"
                             src="https://hollert.pl/media/39/9a/e2/1704971755/gwiazdki_stopka_mail.jpg"><br>
-                        <img style="width:30%; margin: 0 auto; height:auto; display: block; padding: 2%;"
-                            src="https://hollert.pl/media/30/00/4b/1657092171/Logo_sw1.jpg"><br>
+                        <img class="logo-img" src="https://hollert.pl/media/30/00/4b/1657092171/Logo_sw1.jpg"><br>
                     </div>
 
                 </td>
